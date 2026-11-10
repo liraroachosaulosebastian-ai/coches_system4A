@@ -119,8 +119,7 @@ class App:
         Button(
             self.ventana,
             text="Guardar",
-            command=self.insertar_controller
-        ).pack(pady=10)
+            command=lambda: {self.insertar_controller(),self.insertar_view()}).pack(pady=10)
 
         Button(
             self.ventana,
@@ -157,7 +156,7 @@ class App:
 
         Button(self.ventana,
             text="Eliminar",
-            command=self.eliminar_controller).pack(pady=10)
+            command=lambda: {self.eliminar_controller(), self.eliminar_view()}).pack(pady=10)
 
         Button(self.ventana,
             text="Regresar",
@@ -204,7 +203,7 @@ class App:
 
         Button(self.ventana,
             text="Actualizar",
-            command=self.modificar_controller).pack(pady=10)
+            command=lambda: {self.modificar_controller(), self.modificar_view()}).pack(pady=10)
 
         Button(self.ventana,
             text="Regresar",
