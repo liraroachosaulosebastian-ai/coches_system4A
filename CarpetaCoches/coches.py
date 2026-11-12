@@ -1,4 +1,4 @@
-from P2_POO.coches_system_Coches_Camiones.conexionBD import conexion, cursor
+from conexionBD import conexion, cursor
 class Coches:
     def __init__(self, marca, color, modelo, velocidad, potencia, plazas):
         self._marca = marca
