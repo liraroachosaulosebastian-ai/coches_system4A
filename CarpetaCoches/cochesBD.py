@@ -1,13 +1,13 @@
-from P2_POO.coches_system_Coches_Camiones.conexionBD import conexion, cursor
+# from conexionBD import conexion, cursor
 
-class CochesBD:
-    def __init__(self, marca, color, modelo, velocidad, potencia, plazas):
-        self._marca = marca
-        self._color = color
-        self._modelo = modelo
-        self._velocidad = velocidad
-        self._potencia = potencia
-        self._plazas = plazas
+# class CochesBD:
+#     def __init__(self, marca, color, modelo, velocidad, potencia, plazas):
+#         self._marca = marca
+#         self._color = color
+#         self._modelo = modelo
+#         self._velocidad = velocidad
+#         self._potencia = potencia
+#         self._plazas = plazas
 
     # def insertar(self):
     #     try:
